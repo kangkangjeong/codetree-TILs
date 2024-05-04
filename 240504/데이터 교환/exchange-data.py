@@ -1,7 +1,9 @@
 a,b,c=5,6,7
-b=a
-c=b
-a=c
+d=b
+b=int(a)
+a=int(c)
+c=int(d)
+
 print(a)
 print(b)
 print(c)
