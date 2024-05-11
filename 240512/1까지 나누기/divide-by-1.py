@@ -1,9 +1,11 @@
-n=int(input())
-cnt=0
-for i in range(1,n+1):
-    cnt+=1
-    if (n/i)<=1:
-        break
+n = int(input())  # 사용자로부터 정수 n 입력 받기
+cnt = 0  # 나눗셈 횟수를 세기 위한 카운터 변수 초기화
 
-    n=n/i
-print(cnt)
+for i in range(1, n+1):  # 1부터 n까지 반복
+    if n // i <= 1:  # 몫이 1 이하가 되는 순간
+        cnt += 1  # 나눗셈 횟수 증가
+        break  # 더 이상 나눌 필요가 없으므로 반복문 종료
+    n = n // i  # 몫을 n에 업데이트
+    cnt += 1  # 나눗셈 횟수 증가
+
+print(cnt)  # 나눗셈을 진행한 총 횟수 출력
