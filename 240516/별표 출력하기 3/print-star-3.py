@@ -1,8 +1,8 @@
-n=int(input())
-for i in range(n): 
-    for j in range(2*i):
-        print(" ", end="")
-    
-    for j in range(n+4-i*2):
-        print("*", end=" ")
-    print()
+n = int(input())
+
+# 각 줄마다 출력해야 하는 별과 공백의 개수를 계산
+for i in range(n):
+    # 공백 출력 (각 줄의 시작 부분에서 필요한 공백의 개수)
+    print(' ' * (2 * i), end='')
+    # 별표 출력 (각 줄에 필요한 별의 개수)
+    print('* ' * (2 * n - 1 - 2 * i))
