@@ -1,6 +1,6 @@
 n=int(input())
 for i in range(n): 
-    for j in range(2*(i)):
+    for j in range(2*i):
         print(" ", end="")
     
     for j in range(n+4-i*2):
