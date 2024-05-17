@@ -3,7 +3,7 @@ x=65
 for i in range(n):
     for j in range(n):
         if i<=j:
-            if x>89:
+            if x>90:
                 x=65
                 print(chr(x),end=' ')
                 x+=1
