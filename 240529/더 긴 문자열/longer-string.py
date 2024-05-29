@@ -3,5 +3,5 @@ if len(n)<len(m):
     print(m,len(m))
 elif len(n)==len(m):
     print('same')
-elif len(n)>len(m):
+else:
     print(m,len(m))
