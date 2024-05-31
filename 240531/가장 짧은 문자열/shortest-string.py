@@ -5,6 +5,8 @@ for _ in range(3):
 for i in range(3):
     if len(text_list[i])>len(text_list[0]):
         ma=len(text_list[i])
+    else:
+        ma=len(text_list[0])
 for j in range(3):
     if len(text_list[j])<len(text_list[0]):
         mi=len(text_list[j])
