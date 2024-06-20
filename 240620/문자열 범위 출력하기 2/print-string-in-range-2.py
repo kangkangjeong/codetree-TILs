@@ -6,5 +6,5 @@ if length>=less:
     for i in range(less):
         print(given_str[-i-1],end='')
 else:
-    a=given_str.reverse()
+    a = given_str[::-1]
     print(a)
