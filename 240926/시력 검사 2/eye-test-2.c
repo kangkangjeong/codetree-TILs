@@ -2,8 +2,6 @@
 
 int main() {
     float num;  // num을 float 타입으로 변경
-
-    printf("숫자를 입력하세요: ");
     scanf("%f", &num);  // %f로 수정
 
     if (num >= 1.0)
