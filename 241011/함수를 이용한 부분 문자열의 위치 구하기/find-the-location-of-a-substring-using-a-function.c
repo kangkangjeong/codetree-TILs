@@ -5,6 +5,8 @@ int find_substring(const char *input, const char *target) {
     int input_length = strlen(input);
     int target_length = strlen(target);
 
+    // 입력 문자열의 길이와 목표 문자열의 길이를 비교하여
+    // 목표 문자열이 입력 문자열에 포함될 수 있는지 확인
     for (int i = 0; i <= input_length - target_length; i++) {
         // 부분 문자열 비교
         if (strncmp(&input[i], target, target_length) == 0) {
