@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void print_rect(int n, int m) {
+    
     for (int i = 0; i < n; i++) { // 조건을 i < n으로 수정
         for (int j = 0; j < m; j++) { // m에 대한 반복 추가
             printf("1");
@@ -11,8 +12,8 @@ void print_rect(int n, int m) {
 
 int main() {
     int n,m;
+    scanf("%d %d",&n,&m);
 
-    scanf("%d,%d",&n,&m);
-    print_rect(2, 3);
+    print_rect(n,m);
     return 0;
 }
