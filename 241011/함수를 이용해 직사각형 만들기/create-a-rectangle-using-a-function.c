@@ -10,6 +10,9 @@ void print_rect(int n, int m) {
 }
 
 int main() {
+    int n,m;
+
+    scanf("%d,%d",&n,&m);
     print_rect(2, 3);
     return 0;
 }
