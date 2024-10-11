@@ -17,8 +17,8 @@ int find_substring(const char *input, const char *target) {
 }
 
 int main() {
-    char input[1001]; // 최대 1000자 + 널 종료 문자
-    char target[1001];
+    char input[9999]; // 최대 1000자 + 널 종료 문자
+    char target[9999];
 
     // 입력 받기
     fgets(input, sizeof(input), stdin);
